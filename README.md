@@ -25,6 +25,13 @@ This project focuses on implementing matrix multiplication using systolic arrays
 - **Inputs:** Clock signal (`clk_i`), reset signal (`rst_ni`), start signal (`start_bit_i`), matrix elements from A and B (`in_a`, `in_b`).
 - **Outputs:** Updated matrix elements for chaining (`out_a`, `out_b`), result of multiplication and accumulation (`out_c`), and overflow signal (`overflow_signal`).
 
+### 4. Matrix Multiplication Calculation (`matmul_calc.v`)
+- **Description:** Orchestrates the matrix multiplication process by controlling the flow of matrix elements through processing elements and memory.
+- **Inputs:** Clock signal (`clk_i`), reset signal (`rst_ni`), start signal (`start_bit_i`), matrices A and B (`matrix_a_in`, `matrix_b_in`), and dimensions (`dimension_N_i`, `dimension_K_i`, `dimension_M_i`).
+- **Outputs:** Flags indicating operation completion (`flags_o`), data to be written to memory (`write_to_sp`), and control signal for memory write (`sp_write`).
+
+![image](https://github.com/Noamv7/DDLS/assets/79940366/c6068bc9-da85-46a5-99ee-2313cfb121fc)
+
 ---
 
 ## Overflow Handling in Processing Elements (PE):
@@ -32,13 +39,6 @@ This project focuses on implementing matrix multiplication using systolic arrays
 The PE module includes overflow detection mechanisms to ensure accurate multiplication and accumulation operations. When overflow occurs, the module adjusts the result to maintain data integrity, preventing loss and ensuring reliable performance throughout the matrix multiplication process.
 
 --- 
-
-### 4. Matrix Multiplication Calculation (`matmul_calc.v`)
-- **Description:** Orchestrates the matrix multiplication process by controlling the flow of matrix elements through processing elements and memory.
-- **Inputs:** Clock signal (`clk_i`), reset signal (`rst_ni`), start signal (`start_bit_i`), matrices A and B (`matrix_a_in`, `matrix_b_in`), and dimensions (`dimension_N_i`, `dimension_K_i`, `dimension_M_i`).
-- **Outputs:** Flags indicating operation completion (`flags_o`), data to be written to memory (`write_to_sp`), and control signal for memory write (`sp_write`).
-
-![image](https://github.com/Noamv7/DDLS/assets/79940366/c6068bc9-da85-46a5-99ee-2313cfb121fc)
 
 ## Design Flow:
 
