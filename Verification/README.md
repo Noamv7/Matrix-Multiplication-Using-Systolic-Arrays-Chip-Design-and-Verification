@@ -8,6 +8,9 @@
 ## Overview
 This repository contains the SystemVerilog code for a matrix multiplication design along with its testbench and tester module. The purpose of this README is to provide an overview of the verification process conducted for this design.
 
+![image](https://github.com/Noamv7/Matrix-Multiplication-Using-Systolic-Arrays-Chip-Design-and-Verification/assets/79940366/de1818b7-622a-4abd-bbab-7100d0277184)
+
+
 ## Verification Methodology
 The matrix multiplication design has been thoroughly verified using a combination of simulation-based testing, functional checking, and functional coverage analysis. The verification process includes the following steps:
 
@@ -50,11 +53,9 @@ The `matmul_interface.sv` file contains the definition of the matrix multiplicat
 ## Conclusion
 The verification process ensures that the matrix multiplication design functions correctly under various conditions and input scenarios. By employing simulation-based testing, functional checking, and functional coverage analysis, we can confidently validate the correctness, accuracy, and completeness of the design implementation.
 
-For any questions or issues regarding the verification process, please contact [insert contact information].
 
 ---
 
-Let me know if there are any further adjustments needed!
 
 
 
