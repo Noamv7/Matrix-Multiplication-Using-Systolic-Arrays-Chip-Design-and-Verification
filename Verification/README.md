@@ -13,7 +13,7 @@ The matrix multiplication design has been thoroughly verified using a combinatio
 
 1. **Simulation-Based Testing**: The Verilog testbench utilizes SystemVerilog constructs to simulate the behavior of the matrix multiplication design under various conditions. This includes testing different input matrices, configurations, and control signals to ensure correct functionality.
 
-2. **Functional Checker**: A functional checker module (`matmul_checker`) is employed to monitor the behavior of the design during simulation. The checker module verifies specific functional properties or requirements of the design by examining its internal signals, state transitions, or output behavior. This helps ensure that the design adheres to the specified functional requirements.
+2. **Functional Checker**: A functional checker module is employed to monitor the behavior of the design during simulation. The checker module verifies specific functional properties or requirements of the design by examining its internal signals, state transitions, or output behavior. This helps ensure that the design adheres to the specified functional requirements.
 
 3. **Functional Coverage Analysis**: Functional coverage analysis is performed to assess the completeness of the verification process. Coverage metrics are defined to track which aspects of the design functionality have been exercised during simulation. This includes coverage of input space, state space, control signals, and specific design features. The coverage results help identify areas of the design that require additional testing or refinement to achieve comprehensive verification.
 
