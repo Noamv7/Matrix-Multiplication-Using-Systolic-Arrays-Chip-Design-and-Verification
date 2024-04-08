@@ -6,7 +6,7 @@
 
 
 ## Overview
-This repository contains the Verilog code for a matrix multiplication design along with its testbench and tester module. The purpose of this README is to provide an overview of the verification process conducted for this design.
+This repository contains the SystemVerilog code for a matrix multiplication design along with its testbench and tester module. The purpose of this README is to provide an overview of the verification process conducted for this design.
 
 ## Verification Methodology
 The matrix multiplication design has been thoroughly verified using a combination of simulation-based testing, functional checking, and functional coverage analysis. The verification process includes the following steps:
