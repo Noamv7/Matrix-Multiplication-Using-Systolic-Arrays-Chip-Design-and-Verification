@@ -17,9 +17,9 @@ The Verification Part aims to ensure the correctness and functionality of the ma
 
 - **Design Part:**
   - Verilog modules for APB slave, memory, processing elements, and matrix multiplication calculation.
-  - Header and package files containing system parameters and definitions.
   
 - **Verification Part:**
+  - Header and package files containing system parameters and definitions.
   - Testbench, tester, functional checker, and functional coverage modules for verification.
   - Python-based golden model for comparison.
   
