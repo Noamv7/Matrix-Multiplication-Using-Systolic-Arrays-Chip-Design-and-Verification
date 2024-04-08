@@ -12,6 +12,7 @@ This project focuses on implementing matrix multiplication using systolic arrays
 - **Description:** Acts as an interface between the Advanced Peripheral Bus (APB) and the rest of the design. It handles read and write operations, memory addressing, and error signaling.
 - **Inputs:** Clock signal (`clk_i`), reset signal (`rst_ni`), APB control signals (`psel_i`, `penable_i`, `pwrite_i`), data signals (`pwdata_i`, `paddr_i`), and signals from the design (`pslverr_i`, `busy_i`, `data_in_from_mem`).
 - **Outputs:** APB response signals (`pready_o`, `pslverr_o`, `prdata_o`), signals to the design (`busy_o`, `data_out_mem`, `addr_out_mem`, `write_en_out`, `pstrb_o`).
+![image](https://github.com/Noamv7/DDLS/assets/79940366/0c948f0e-68f7-4274-99aa-1acd51717fca)
 
 ### 2. Memory (`mem.v`)
 - **Description:** Implements the memory functionality required for storing matrices, flags, and intermediate results.
