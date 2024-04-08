@@ -40,7 +40,6 @@ The PE module includes overflow detection mechanisms to ensure accurate multipli
 
 --- 
 
----
 
 ## Design Parameters and Configurations:
 
