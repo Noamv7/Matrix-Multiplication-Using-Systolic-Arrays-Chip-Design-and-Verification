@@ -30,6 +30,8 @@ This project focuses on implementing matrix multiplication using systolic arrays
 - **Inputs:** Clock signal (`clk_i`), reset signal (`rst_ni`), start signal (`start_bit_i`), matrices A and B (`matrix_a_in`, `matrix_b_in`), and dimensions (`dimension_N_i`, `dimension_K_i`, `dimension_M_i`).
 - **Outputs:** Flags indicating operation completion (`flags_o`), data to be written to memory (`write_to_sp`), and control signal for memory write (`sp_write`).
 
+![image](https://github.com/Noamv7/DDLS/assets/79940366/c6068bc9-da85-46a5-99ee-2313cfb121fc)
+
 ## Design Flow:
 
 1. **Memory Initialization:** Initializes memory elements to prepare for data storage and retrieval operations.
