@@ -40,6 +40,27 @@ The PE module includes overflow detection mechanisms to ensure accurate multipli
 
 --- 
 
+---
+
+## Design Parameters and Configurations:
+
+### Parameters:
+- **DATA_WIDTH:** Determines the width of data in bits, impacting the precision of computations. It must satisfy `DATA_WIDTH <= BUS_WIDTH / 2`.
+- **BUS_WIDTH:** Specifies the width of the data bus in bits, affecting the amount of data transferred at once.
+- **ADDR_WIDTH:** Defines the width of address lines, determining the maximum addressable memory size.
+- **SP_NTARGETS:** Indicates the number of scratchpad memory targets available for use.
+
+### Possible Values:
+- **DATA_WIDTH:** 8, 16, 32 (satisfying `DATA_WIDTH <= BUS_WIDTH / 2`)
+- **BUS_WIDTH:** 16, 32, 64
+- **ADDR_WIDTH:** 16, 24, 32
+- **SP_NTARGETS:** 1, 2, 4
+- **MAX_DIM:** 2, 4
+
+The `MAX_DIM` parameter is derived from `BUS_WIDTH` and `DATA_WIDTH`, calculated as `MAX_DIM = BUS_WIDTH / DATA_WIDTH`, impacting the parallelism and granularity of computations.
+
+--- 
+
 ## Design Flow:
 
 1. **Memory Initialization:** Initializes memory elements to prepare for data storage and retrieval operations.
