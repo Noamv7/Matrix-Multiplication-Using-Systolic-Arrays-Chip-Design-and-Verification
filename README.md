@@ -4,7 +4,7 @@
 
 # Matrix Multiplication Using Systolic Arrays - Design Part
 
-This project focuses on implementing matrix multiplication using systolic arrays with an emphasis on chip design and verification. The design is coded in Verilog/SystemVerilog and incorporates various modules including APB slave, memory, processing elements (PE), and the main matrix multiplication calculation module.
+This project focuses on implementing matrix multiplication using systolic arrays with an emphasis on chip design and verification. The design is coded in Verilog and incorporates various modules including APB slave, memory, processing elements (PE), and the main matrix multiplication calculation module.
 
 ## Modules Overview:
 
