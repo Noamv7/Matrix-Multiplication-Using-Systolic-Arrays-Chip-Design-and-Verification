@@ -67,6 +67,9 @@ The `MAX_DIM` parameter is derived from `BUS_WIDTH` and `DATA_WIDTH`, calculated
 2. **Matrix Multiplication:** The matrix multiplication calculation module orchestrates the process by sending matrix elements to processing elements and managing the flow of data through memory.
 3. **Data Transfer:** The APB slave module facilitates data transfer between the main processor and memory, ensuring proper addressing and error handling.
 
+![image](https://github.com/Noamv7/DDLS/assets/79940366/88142e91-c615-41ec-99ea-7fccc915517d)
+
+
 ## Usage:
 
 The design modules can be instantiated and interconnected according to specific system requirements. Proper clocking and reset signals should be provided to ensure correct functionality.
