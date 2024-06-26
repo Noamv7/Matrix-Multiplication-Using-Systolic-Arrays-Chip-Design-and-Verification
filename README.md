@@ -35,7 +35,7 @@ The `matmul_interface.sv` file defines the interface for communication between t
 
 ## Conclusion
 
-This project presents an efficient implementation of matrix multiplication using systolic arrays, accompanied by thorough verification to ensure accuracy and reliability. For further inquiries or assistance, please contact [insert contact information].
+This project presents an efficient implementation of matrix multiplication using systolic arrays, accompanied by thorough verification to ensure accuracy and reliability.
 
 ---
 
